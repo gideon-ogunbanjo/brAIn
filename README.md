@@ -5,3 +5,12 @@ It is completely based on Neural Language processing that compares the words in 
                 
 If the typed word is found in the dictionary, the autocorrect feature assumes you typed the correct term. If the word does not exist, the tool identifies the most comparable words in our smartphone’s history, as it indicates.
 
+Required Libraries:
+
+
+
+pip install pattern
+pip install pyspellchecker
+pip install autocorrect
+pip install textblob
+pip install textdistance
