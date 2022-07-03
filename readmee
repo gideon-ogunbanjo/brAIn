@@ -1,0 +1,8 @@
+Required Libraries:
+
+
+pip install pattern
+pip install pyspellchecker
+pip install autocorrect
+pip install textblob
+pip install textdistance
