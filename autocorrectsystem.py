@@ -143,3 +143,4 @@ probs = get_probs(word_count)
 tmp_corrections = get_corrections(my_word, probs, v, 2)
 for i, word_prob in enumerate(tmp_corrections):
     print(f"word {i}: {word_prob[0]}, probability {word_prob[1]:.6f}")
+#by gideon Ogunbanjo
