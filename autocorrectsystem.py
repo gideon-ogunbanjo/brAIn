@@ -4,7 +4,7 @@ from collections import Counter
 import numpy as np
 import pandas as pd
 
-
+#Objectives:
 # Implement the function process_data which
 # 1) Reads in a corpus
 # #2) Changes everything to lowercase
@@ -38,7 +38,7 @@ word_count = get_count(w)
 print(f"The dictionary has  {len(word_count)} key values pairs")
 
 
-# implement get_probs function
+# Implementing get_probs function
 # to calculate the probability that any word will appear if randomly selected from the dictionary
 
 def get_probs(word_count_dict):
@@ -49,9 +49,9 @@ def get_probs(word_count_dict):
     return probs
 
 
-# Now we implement 4 edit word functions
+# Now i'm implement 4 edit word functions
 
-# DeleteLetter:removes a letter from a given word
+# DeleteLetter: removes a letter from a given word
 def DeleteLetter(word):
     delete_list = []
     split_list = []
@@ -64,7 +64,7 @@ def DeleteLetter(word):
 
 delete_word_l = DeleteLetter(word="cans")
 
-# SwitchLetter:swap two adjacent letters
+# SwitchLetter: swap two adjacent letters
 def SwitchLetter(word):
     split_l = []
     switch_l = []
