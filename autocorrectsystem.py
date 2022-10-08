@@ -20,7 +20,7 @@ with open('sample.txt','r',encoding="utf8") as f:
 
 v = set(w) #vocabulary
 print(f"The first 10 words in our dictionary are: \n{w[0:10]}")
-print(f"The dictionary has {len(v)} words ")
+print(f"This dictionary has {len(v)} words ")
 
 
 # a get_count function that returns a dictionary of word vs frequency
@@ -35,7 +35,7 @@ def get_count(words):
 
 
 word_count = get_count(w)
-print(f"The dictionary has  {len(word_count)} key values pairs")
+print(f"This dictionary has  {len(word_count)} key values pairs")
 
 
 # Implementing get_probs function
@@ -143,4 +143,4 @@ probs = get_probs(word_count)
 tmp_corrections = get_corrections(my_word, probs, v, 2)
 for i, word_prob in enumerate(tmp_corrections):
     print(f"word {i}: {word_prob[0]}, probability {word_prob[1]:.6f}")
-#by gideon Ogunbanjo
+# Created by Gideon Ogunbanjo
