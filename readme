@@ -1,3 +1,6 @@
+# brAin
+# Overview:
+
 The Autocorrect model is programmed to correct spellings and errors while inputting text and locating the most comparable related words.
 
 It is completely based on Neural Language processing that compares the words in the vocabulary dictionary and the typed words on the keyboard.
